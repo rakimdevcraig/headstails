@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button id="button" name="button">Flip</button>
+    <span id="result"></span>
+  </body>
+  <script type="text/javascript">
+//event listener
+document.getElementById('button').onclick= flip // targeting Id in html document when a click occurs coin will flip
+function flip(){
+  let result = Math.random() // computer generates a random result with method Math.random
+  if(result < .5){ // if result is less than .5
+    document.getElementById('result').innerHTML= 'heads' // result is shown as heads
+  }else{
+    document.getElementById('result').innerHTML= 'tails' //result is shown as tails if greater than .5
+  }
+
+}
+  </script>
+</html>

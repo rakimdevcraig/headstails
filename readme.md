@@ -1,7 +1,18 @@
+## Installation
+
+1. Clone repo
+2. run `npm install`
+
+## Usage
+
+1. run `node server.js`
+2. Navigate to `localhost:8000`
+
+
 Heads Tails Coinflip game
 This project allows the user to flip a coin and be informed of what the coin landed on.
 
-Demo:
+![pic](pic.jpg)
 
 How It's Made:
 Tech used: HTML, CSS, JavaScript, Node
